@@ -18,8 +18,9 @@ El sitio no requiere instalación, compilación, dependencias ni servicios exter
 - Directorio editable de funciones y cargos empresariales, precargado con equivalencias de la propuesta MAHRO.
 - Continuidad: procesos críticos, responsables, prioridades y alternativas de recuperación.
 - Gobernanza: comité de crisis, enlaces externos y decisiones estratégicas.
-- Modelo MAHRO: gráfico de adaptación empresarial, organigrama de la propuesta doctoral y flujo integrado.
+- Modelo MAHRO: gráfico de adaptación empresarial, organigrama empresarial redibujado en `assets/mahro-organigrama-empresa.png` y flujo integrado.
 - Fundamento y método: explica la investigación cualitativa de casos múltiples para la propuesta 1.A y la metodología mixta y participativa de la propuesta 1.B.
+- Propuestas: presenta las dos escalas de investigación —intraempresarial e interorganizacional— y su relevancia ante el sismo del 10 de agosto de 2026, con enlaces a fuentes oficiales.
 - Impresión y respaldo JSON para exportar o importar datos.
 
 ## Datos y alcance
