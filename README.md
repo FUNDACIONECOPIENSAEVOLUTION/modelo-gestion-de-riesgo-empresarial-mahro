@@ -8,26 +8,28 @@ La página principal está en `index.html`. Con GitHub Pages habilitado para la 
 
 https://fundacionecopiensaevolution.github.io/modelo-gestion-de-riesgo-empresarial-mahro/
 
-El sitio no requiere instalación, compilación, dependencias ni servicios externos para sus funciones principales.
+El sitio no requiere instalación ni compilación. El mapa geográfico carga Leaflet y mosaicos de OpenStreetMap desde internet; el plano de sede, dibujo, datos y respaldos funcionan localmente.
 
 ## Módulos
 
 - Resumen de la integración MAHRO: respuesta táctica, gobernanza de crisis y continuidad del negocio.
 - Centro de comando: contexto del incidente, periodo operacional, bitácora y decisiones.
-- Operación MAHRO: objetivos, recursos, conteo agregado de personas, mapa de sede y acciones por fase, prioridad y responsable.
+- Operación MAHRO: objetivos, recursos, conteos agregados de personas (incluye valoración y traslado), registro fotográfico local, mapas de sede y geográfico, símbolos arrastrables, dibujo libre y zonas de peligro poligonales con etiqueta e impresión.
 - Directorio editable de funciones y cargos empresariales, precargado con equivalencias de la propuesta MAHRO.
 - Continuidad: procesos críticos, responsables, prioridades y alternativas de recuperación.
 - Gobernanza: comité de crisis, enlaces externos y decisiones estratégicas.
 - Modelo MAHRO: gráfico de adaptación empresarial, organigrama empresarial redibujado en `assets/mahro-organigrama-empresa.png` y flujo integrado.
 - Fundamento y método: explica la investigación cualitativa de casos múltiples para la propuesta 1.A y la metodología mixta y participativa de la propuesta 1.B.
 - Propuestas: presenta las dos escalas de investigación —intraempresarial e interorganizacional— y su relevancia ante el sismo del 10 de agosto de 2026, con enlaces a fuentes oficiales.
+- Ubicación GPS del dispositivo bajo permiso explícito, con copia o envío voluntario de coordenadas por WhatsApp y opción de guardar un punto.
+- Nueva operación con reinicio de datos operativos y conservación del directorio y la configuración organizacional.
 - Impresión y respaldo JSON para exportar o importar datos.
 
 ## Datos y alcance
 
-Los datos de operación, cargos, plano y marcas se guardan en el almacenamiento local del navegador. No se sincronizan entre usuarios ni se envían a un servidor. Usa **Exportar** para descargar un respaldo JSON y **Importar respaldo** para recuperarlo en ese navegador.
+Los datos de operación, cargos, planos, puntos, zonas delimitadas y evidencias se guardan en el almacenamiento local del navegador. El GPS se consulta únicamente tras pulsar **Iniciar GPS**; no se guarda ni transmite de forma automática. Al usar **Compartir por WhatsApp**, el usuario elige abrir esa aplicación con un enlace de mapa. No existe sincronización entre usuarios ni envío de datos al repositorio. Usa **Exportar** para descargar un respaldo JSON y **Importar respaldo** para recuperarlo.
 
-Esta versión es demostrativa y sirve para revisión, planeación y ejercicios. No ofrece GPS en vivo, despacho de recursos, coordinación multiusuario, autenticación ni almacenamiento central. No reemplaza los planes aprobados, las responsabilidades legales ni los protocolos de las autoridades competentes. No registres datos médicos identificables, credenciales ni información sensible de la empresa.
+Esta versión es demostrativa y sirve para revisión, planeación y ejercicios. No ofrece rastreo multiusuario en vivo, despacho de recursos, autenticación ni almacenamiento central. El listado de afectaciones se maneja como conteos agregados, sin ficha nominativa de pacientes. No reemplaza los planes aprobados, las responsabilidades legales ni los protocolos de las autoridades competentes. No registres datos médicos identificables, credenciales ni información sensible de la empresa.
 
 ## Fuentes del proyecto
 
